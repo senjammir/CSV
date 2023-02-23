@@ -15,6 +15,6 @@ while True:
 
     #else:                           #runs if the exception does not run     
         #pass                        #does nothing
-        paycheck = answer * payrate
+        #paycheck = answer * payrate
 
     print("It is done")
