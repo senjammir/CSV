@@ -48,3 +48,17 @@ plt.tick_params(axis="both",which="major",labelsize=16)
 
 fig.autofmt_xdate()
 plt.show()
+
+"""How to do subplots"""
+
+plt.subplot(2,1,1)      #plt.subplot(no of rows, no of columns, index value)
+plt.plot(dates,highs,c='red')
+plt.title('Highs')
+
+plt.subplot(2,1,2)
+plt.plot(dates,lows, c='blue')
+plt.title('Lows')
+
+plt.suptitle("Highs and lows of Sitka, Alaska")
+
+plt.show()
